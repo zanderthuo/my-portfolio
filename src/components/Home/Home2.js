@@ -5,10 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-<<<<<<< HEAD
-  AiFillInstagram,
-=======
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -22,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a SoftwAre developer with 3 years of experience in the IT domain.
+            I am a Software developer with 3 years of experience in the IT domain.
               <br />
               <br />I'm experienced in development of web applications with technologies like
               <i>
@@ -30,7 +26,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of Interest are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -92,4 +88,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

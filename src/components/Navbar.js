@@ -2,17 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-<<<<<<< HEAD
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-=======
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 import {
   AiFillStar,
   AiOutlineHome,
@@ -89,11 +81,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-<<<<<<< HEAD
             <Nav.Item>
-=======
-            {/* <Nav.Item>
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -101,11 +89,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-<<<<<<< HEAD
             </Nav.Item>
-=======
-            </Nav.Item> */}
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 
             <Nav.Item className="fork-btn">
               <Button

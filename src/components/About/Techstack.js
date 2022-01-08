@@ -1,9 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-<<<<<<< HEAD
-import { CgCPlusPlus } from "react-icons/cg";
-=======
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 import {
   DiJavascript1,
   DiReact,
@@ -13,11 +9,7 @@ import {
   DiCss3,
   DiGit,
 } from "react-icons/di";
-<<<<<<< HEAD
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
-=======
 import { SiFirebase } from "react-icons/si";
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 
 function Techstack() {
   return (

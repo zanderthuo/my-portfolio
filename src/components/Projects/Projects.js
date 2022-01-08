@@ -24,7 +24,7 @@ function Projects() {
               imgPath={AirbnbClone}
               isBlog={false}
               title="AirbnbClone"
-              description="Airbnb Clone which I build the frontend part only using reactjs, material ui, react-date-range picker and react-router-dom"
+              description="Airbnb Clone which I build the frontend part only using Reactjs, material ui, react-date-range picker and react-router-dom"
               link="https://github.com/zanderthuo/Airbnb-Clone"
             />
           </Col>
@@ -44,7 +44,7 @@ function Projects() {
               imgPath={Crownwear}
               isBlog={false}
               title="Crown Wear"
-              description="Crown Wear is an ecommerce web app which I built using only reactjs, firebase, rect-redux, redux, react-router-dom and styled-components"
+              description="Crown Wear is an ecommerce web app which I built using only Reactjs, firebase, react-redux, redux, react-router-dom and styled-components"
               link="https://github.com/zanderthuo/crown-wear"
             />
           </Col>

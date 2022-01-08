@@ -4,11 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-<<<<<<< HEAD
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
-=======
 import Alexpdf from "../../Assets/ALEXANDER_THUO_cv.pdf";
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -37,11 +33,7 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-<<<<<<< HEAD
-          <Button variant="primary" href={pdf} target="_blank">
-=======
           <Button variant="primary" href={Alexpdf} target="_blank">
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -50,16 +42,6 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-<<<<<<< HEAD
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
-              content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
-=======
               title="Software Developer"
               employer="Omnivoltaic Energy Solutions"
               date="September 2021 - present"
@@ -79,7 +61,6 @@ function Resume() {
                 "Worked on creating new Dashboard applicationusing reactjs that monitors the metrics for IOT products of the company",
                 "Offered firsthand technical support to our clients who were using our ERM System to monitor there IOT products",
                 "Used the TIG stack(telegraf, influxdb, grafana) to be able to get metrics from our MQTT Broker",
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -119,11 +100,7 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-<<<<<<< HEAD
-          <Button variant="primary" href={pdf} target="_blank">
-=======
           <Button variant="primary" href={Alexpdf} target="_blank">
->>>>>>> ffab9099c6da21b57ba96ea8513477de04028957
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>

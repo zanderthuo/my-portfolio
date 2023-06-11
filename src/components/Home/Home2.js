@@ -18,18 +18,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a Software developer with 3 years of experience in the IT domain.
+            I am a seasoned Software Developer specializing in the IT domain, with a strong background in web application development.
               <br />
-              <br />I'm experienced in development of web applications with technologies like
+              <br />I possess expertise in various technologies, including
               <i>
                 <b className="purple"> HTML5, CSS3 , Javascript, Reactjs, Nodejs, MongoDB, Rest APIs and Git. </b>
               </i>
               <br />
               <br />
-              My fields of Interest are building new &nbsp;
+              My professional interests lie in creating cutting-edge &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies and Products. </b>
+                Additionally, I am intrigued by areas associated with the Internet of Things (IoT).{" "}
                 <b className="purple">
                   IOT
                 </b>

@@ -19,6 +19,8 @@ function Github() {
       </h1>
       <GitHubCalendar
         username="zanderthuo"
+        year="last"
+        weekStart={0}
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}

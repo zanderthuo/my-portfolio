@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import AirbnbClone from "../../Assets/Projects/AirbnbCLone.png";
 import AmazonClone from "../../Assets/Projects/amazonclone.png";
 import Crownwear from "../../Assets/Projects/crownwear.png";
+import Muiaa from "../../Assets/Projects/muiaa.png";
 
 function Projects() {
   return (
@@ -19,6 +20,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Muiaa}
+              isBlog={false}
+              title="MUIAA Pesa"
+              description="MUIAA Pesa is the financial arm of MUIAA Ltd. It is a digital lending platform that brings lenders and borrowers together to offer quality lead-generation services."
+              link="https://pesa.muiaa.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AirbnbClone}
